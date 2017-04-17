@@ -1,18 +1,22 @@
+.contenedor{
+  width: 300px;
+}
+
 .clase1,
 .clase2,
 .clase3{
   background-color:yellow;
   witdh:50%;
-  height: 100px;
+  height: 80px;
   padding-left: 5px;
   padding-top: 5px;
+  margin:20px;
   box-sizing: border-box;
   font-size: 20px;
   font-family: sans-serif;
 }
 .clase2{
   background-color:fuchsia;
-  border:1px solid black;
 }
 
 .clase3{
