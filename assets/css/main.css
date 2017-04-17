@@ -1,26 +1,36 @@
 .contenedor{
-  width: 100%;
+  width: 400px;
 }
 
-.clase1,
-.clase2,
-.clase3{
-  display:inline-block;
-  background-color:yellow;
-  width: 215px;
-  height: 80px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin:20px 5px;
-  box-sizing: border-box;
-  font-size: 20px;
-  font-family: sans-serif;
+.cuadrado-contenedor{
+  background-color:lightgray;
+  border:1px solid gray;
+  margin:10px;
 }
-.clase2{
-  background-color:fuchsia;
+.cuadrado{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border:1px solid gray;
+  background-color:lightgray;
+  margin:10px;
 }
 
-.clase3{
-  text-transform: uppercase;
+.a-cuadrado{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border:1px solid gray;
+  background-color:lightgray;
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.last-cuadrado{
+  width: 100px;
+  height: 100px;
+  border:1px solid gray;
+  background-color:lightgray;
+  margin:5px 10px;
 }
