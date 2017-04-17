@@ -5,24 +5,22 @@
 .clase1,
 .clase2,
 .clase3{
-  display: inline-block;
+  display:inline-block;
   background-color:yellow;
-  witdh:100px;
-  padding-top:10px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  width: 215px;
+  height: 80px;
+  padding-top: 10px;
+  padding-left: 10px;
   padding-right: 10px;
-  margin:20px 10px;
+  margin:20px 5px;
   box-sizing: border-box;
   font-size: 20px;
   font-family: sans-serif;
 }
 .clase2{
   background-color:fuchsia;
-  padding-right: 15px;
 }
 
 .clase3{
   text-transform: uppercase;
-  padding-right: 15px;
 }
